@@ -1,4 +1,7 @@
 ## Tailwind
+##VİDEO KAYIDI; ![Screen Recording 2024-08-07 at 06 31 35 81 PM](https://github.com/user-attachments/assets/423f53ba-a9e5-4df4-8c34-a01bbd3e44eb)
+
+
 -- KURULUM;
 - https://tailwindcss.com/
 - npm install -D tailwindcss postcss autoprefixer
