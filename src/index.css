@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+.vidoes{
+    background-color: red;
+    display: grid;
+    gap: 50px;
+    overflow: auto;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fre));
+    padding: 20px;
+}
+/* .videos::-webkit-scrollbar{
+    background: transparent;
+    width: 8px;
+    border-radius: 5px;
+}
+.videos::-webkit-scrollbar-thumb {
+    background-color: red;
+} */
+
+.detail-page{
+    padding: 40px 60px;
+    display: grid;
+    grid-template-columns: auto 400px;
+    gap: 40px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 140px auto; /**sütüna böl*/
+    align-items: center;
+    gap: 20px;
+}
+.row .c-pic{
+    display: none;
+}
+.row .text{
+    display: none;
+}
+
+@media (max-width:1000px){
+    .detail-page{
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+    }
+}
